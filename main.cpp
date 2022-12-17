@@ -11,5 +11,10 @@ int ftb(int row){
 
 int main(){
     Board b = Board();
+    b.move(white,0,0,3,0);
+    b.move(white,3,0,3,4);
+    b.move(white,3,4,6,4);
+    b.move(white,6,4,6,3);
     b.print();
+    return 0;
 }

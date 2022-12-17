@@ -65,6 +65,7 @@ class Board{
         void print();
         bool checkmate(color player);
         bool move(color player, int r1, int c1, int r2, int c2);
+        Piece *getField(int r, int c);
     private:
         Piece *field[8][8]; //array of pointers to Pieces. [row][col]
 };
